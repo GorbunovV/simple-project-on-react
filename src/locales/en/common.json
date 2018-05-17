@@ -1,0 +1,21 @@
+{
+  "loading": "Loading...",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "email": "E-mail",
+  "phone": "Phone",
+  "login": "Login",
+  "password": "Password",
+  "demo": "Demo",
+  "project_status_dev": "In process",
+  "project_status_prod": "Complete",
+  "categories_error": "Category loading error",
+  "projects_error": "Projects loading error",
+  "project_error": "Project loading error",
+  "page_error": "Page loading error",
+  "msg_success": "Successful",
+  "msg_error": "An error has occurred",
+  "go_to_main": "Go to main page",
+  "not_found_title": "We're sorry...",
+  "not_found_desc": "But there's nothing here"
+}

@@ -1,0 +1,49 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  height: 100%;
+  width: 260px;
+  background-color: #fff;
+  z-index: 50;
+  transition: 0.3s;
+
+  @include no-mobile {
+    display: none;
+  }
+
+  &.opened {
+    left: 0;
+  }
+
+  .header__logo {
+    @include bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: $primary-color;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+
+    span {
+      margin-right: 5px;
+      color: #ffffff;
+    }
+  }
+
+  &__list {
+    li {
+      border-bottom: 1px solid $light-color;
+
+      ._link {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      &.active {
+        background-color: $light-color;
+      }
+    }
+  }
+}

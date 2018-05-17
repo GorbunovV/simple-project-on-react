@@ -1,0 +1,3 @@
+export const PAGES_REQUEST = 'PAGES_REQUEST';
+export const PAGES_SUCCESS = 'PAGES_SUCCESS';
+export const PAGES_FAILURE = 'PAGES_FAILURE';

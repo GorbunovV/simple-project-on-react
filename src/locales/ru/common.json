@@ -1,0 +1,21 @@
+{
+  "loading": "Загрузка...",
+  "ok": "ОК",
+  "cancel": "Отвенить",
+  "email": "E-mail",
+  "phone": "Телефон",
+  "login": "Логин",
+  "password": "Пароль",
+  "demo": "Демо",
+  "project_status_dev": "В процессе",
+  "project_status_prod": "Завершен",
+  "categories_error": "Ошибка загрузки категорий",
+  "projects_error": "Ошибка загрузки проектов",
+  "project_error": "Ошибка загрузки проекта",
+  "page_error": "Ошибка загрузки страницы",
+  "msg_success": "Выполнено успешно",
+  "msg_error": "Произошла ошибка",
+  "go_to_main": "Перейти на главную страницу",
+  "not_found_title": "Мы сожалеем...",
+  "not_found_desc": "Но здесь ничего нет"
+}

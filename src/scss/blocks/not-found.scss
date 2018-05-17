@@ -1,0 +1,31 @@
+.not-found {
+  background-color: #fff;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  width: 100%;
+
+  &__icon {
+    font-size: 0;
+    margin-bottom: 20px;
+
+    .icon {
+      width: 150px;
+      height: 150px;
+      color: $dark-color;
+    }
+  }
+
+  &__title {
+    @include bold;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: $dark-color;
+  }
+
+  &__desc {
+    color: $secondary-color;
+  }
+}
